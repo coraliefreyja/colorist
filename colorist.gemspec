@@ -6,7 +6,6 @@ Gem::Specification.new do |s|
   s.email = "michael@intridea.com"
   s.homepage = "http://github.com/mbleigh/colorist"
   s.description = "Colorist is a library built to handle the easy conversion and manipulation of colors with a special emphasis on W3C standards and CSS-style hex color notation."
-  s.has_rdoc = true
   s.authors = ["Michael Bleigh"]
   s.files = [ "MIT_LICENSE.rdoc",
               "README.rdoc",
@@ -14,7 +13,7 @@ Gem::Specification.new do |s|
               "lib/colorist.rb",
               "lib/colorist/color.rb",
               "lib/colorist/core_extensions.rb" ]
-	s.add_development_dependency 'rake'
+  s.add_development_dependency 'rake'
   s.add_development_dependency 'rspec', '~> 2.8'
   s.rdoc_options = ["--main", "README.rdoc"]
   s.extra_rdoc_files = ["MIT_LICENSE.rdoc", "README.rdoc"]
